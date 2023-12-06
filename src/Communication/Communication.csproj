@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<BaseOutputPath>..\..\build</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="S7netplus" Version="0.20.0" />
+	  <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+	</ItemGroup>
+
+</Project>
